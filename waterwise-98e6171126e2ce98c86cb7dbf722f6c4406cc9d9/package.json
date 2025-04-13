@@ -1,0 +1,50 @@
+{
+  "homepage": "https://rabimishra1.github.io/Water-Wise",
+
+  
+  "name": "water-wise",
+  
+  "version": "1.0.0",
+  
+  "private": true,
+  
+  "scripts": {
+  
+    "predeploy": "npm run build",
+  "deploy": "gh-pages -d build",
+  "start": "react-scripts start",
+  
+    
+  "build": "react-scripts build",
+  
+    
+  "test": "react-scripts test",
+  
+    
+  "eject": "react-scripts eject"
+  
+  },
+  
+  "dependencies": {
+  
+    
+  "react": "^18.0.0",
+  
+    
+  "react-dom": "^18.0.0",
+  
+    
+  "react-router-dom": "^7.1.2",
+  
+    
+  "react-scripts": "^5.0.1"
+  
+  },
+  
+  "devDependencies": {
+  
+    
+  "gh-pages": "^6.3.0"
+  
+  }
+}
